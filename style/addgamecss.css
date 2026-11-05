@@ -1,0 +1,128 @@
+body {
+    font-family: "Motiva Sans", sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #1b2838;
+    color: #fff;
+}
+
+header {
+    background-color: #181a21;
+    width: 100%;
+    padding: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+}
+
+header img {
+    width: 175px;
+    padding-right: 30px;
+}
+
+nav a {
+    color: #ccc;
+    text-decoration: none;
+    font-weight: 600;
+    margin-left: 10px;
+    padding-right: 30px;
+}
+
+nav a:hover {
+    color: #1a56e2;
+}
+
+h1{
+    text-align: center;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+        .header-right {
+            display: flex;
+            align-items: center;
+        }
+
+        .user-menu {
+            position: relative;
+            display: inline-block;
+            margin-right: 20px;
+            margin-top: -40px;
+            color: white;
+        }
+
+        .user-menu-content {
+            display: none;
+            position: absolute;
+            background-color: #f9f9f9;
+            min-width: 260px;
+            min-height: 40px;
+            box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+            z-index: 1;
+        }
+
+        .user-menu-content a {
+            color: black;
+            padding: 3px 10px;
+            text-decoration: none;
+            display: block;
+        }
+
+        .user-menu-content a:hover {
+            background-color: #f1f1f1;
+        }
+
+        .user-menu:hover .user-menu-content {
+            display: block;
+        }
+
+        .user-menu-text {
+            cursor: pointer;
+        }
+
+form {
+    max-width: 600px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #232a31;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+}
+
+label {
+    display: block;
+    margin-bottom: 8px;
+    color: #ccc;
+}
+
+input,
+textarea,
+select {
+    width: 95%;
+    padding: 10px;
+    margin-bottom: 16px;
+    border: 1px solid #445262;
+    border-radius: 5px;
+    background-color: #2d353c;
+    color: #fff;
+}
+
+input[type="file"] {
+    background-color: transparent;
+    border: none;
+}
+
+button {
+    background-color: #4caf50;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+button:hover {
+    background-color: #45a049;
+}

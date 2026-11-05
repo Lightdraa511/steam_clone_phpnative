@@ -1,0 +1,207 @@
+        header {
+            background-color: #181a21;
+            width: 100%;
+            padding: 20px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+        }
+
+        header img {
+            width: 175px;
+            padding-right: 30px;
+        }
+
+        nav a {
+            color: #ccc;
+            text-decoration: none;
+            font-weight: 600;
+            margin-left: 10px;
+            padding-right: 30px;
+        }
+
+        nav a:hover {
+            color: #1a56e2;
+        }
+
+        .header-right {
+            display: flex;
+            align-items: center;
+        }
+
+        .user-menu {
+            position: relative;
+            display: inline-block;
+            margin-right: 20px;
+            margin-top: -40px;
+            color: white;
+        }
+
+        .user-menu-content {
+            display: none;
+            position: absolute;
+            background-color: #f9f9f9;
+            min-width: 260px;
+            min-height: 40px;
+            box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+            z-index: 1;
+        }
+
+        .user-menu-content a {
+            color: black;
+            padding: 3px 10px;
+            text-decoration: none;
+            display: block;
+        }
+
+        .user-menu-content a:hover {
+            background-color: #f1f1f1;
+        }
+
+        .user-menu:hover .user-menu-content {
+            display: block;
+        }
+
+        .user-menu-text {
+            cursor: pointer;
+        }
+
+        .ContentOne {
+            margin-bottom: 100px;
+        }
+
+        .kong {
+            position: relative;
+        }
+
+        .ContentOne .storeNav {
+            position: absolute;
+            top: 24px;
+            left: 150px;
+            height: 35px;
+            width: 940px;
+            margin: 7px 0 7px 0;
+            background-image: linear-gradient(to right, #3B6490, #2B4B84, #0F216E);
+            z-index: 5;
+        }
+
+        .ContentOne .storeNav ul li {
+            float: left;
+            list-style: none;
+            height: 35px;
+            margin-top: -15px;
+            font-family: Arial, Helvetica, sans-serif;
+            font-weight: bold;
+            font-size: 13px;
+            text-shadow: 0px 2px 3px rgb(0 0 0 / 30%);
+            color: #d9d9d9;
+        }
+
+        .ContentOne .storeNav ul li img {
+            float: left;
+            width: 26px;
+            height: 26px;
+            margin-right: -10px;
+        }
+
+        .ContentOne .storeNav ul li:not(.emptyNav, .search):hover {
+            cursor: pointer;
+            background-image: linear-gradient(to right, #3180BF, rgba(55, 106, 156, 0.5));
+        }
+
+        .ContentOne .storeNav ul .emptyNav {
+            width: 660px;
+        }
+
+        .ContentOne .storeNav ul .search {
+            width: 205px;
+            height: 35px;
+            margin-left: 20px;
+            padding: 0;
+        }
+
+        .ContentOne .storeNav ul li .searchFor {
+            background-color: #316282;
+            border-radius: 3px;
+            border: 1px solid rgba(0, 0, 0, 0.3);
+            box-shadow: 1px 1px 0px rgb(255 255 255 / 20%);
+            height: 25px;
+            box-sizing: border-box;
+            margin-right: 0;
+            margin-top: 5px;
+            position: relative;
+        }
+
+        .ContentOne .storeNav ul li .searchFor:hover {
+            border: 1px solid blue;
+        }
+
+        .ContentOne .storeNav ul li input {
+            height: 27px;
+            width: calc(100% - 25px - 8px);
+            color: #081116;
+            font-size: 14px;
+            text-shadow: 1px 1px 0px rgb(255 255 255 / 10%);
+            font-family: "Motiva Sans", Sans-serif;
+            font-weight: 300;
+            outline: none;
+            background-color: transparent;
+            border: none;
+            position: absolute;
+            left: 0;
+            font-style: italic;
+            margin-left: 8px;
+        }
+
+        .ContentOne .storeNav ul li .searchFor img {
+            width: 23px;
+            height: 23px;
+            position: absolute;
+            top: 0px;
+            right: 11px;
+        }
+
+        .search-results-container {
+            max-width: 800px;
+            margin: 20px auto;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+            overflow: hidden;
+            background-color: #232a31;
+            padding: 20px;
+        }
+
+        .search-result {
+            display: flex;
+        }
+
+        .search-result img {
+            width: 100px;
+            height: auto;
+            margin-right: 20px;
+        }
+
+        .search-result-details {
+            flex-grow: 1;
+            display: flex;
+            align-items: center;
+        }
+
+        .search-result-details h3 {
+            font-size: 16px;
+            padding-right: 40px;
+        }
+
+        .search-result-details p {
+            font-size: 16px;
+            text-align: center;
+            padding-right: 50px;
+        }
+
+        .search-result-details .price-container {
+            text-align: right;
+        }
+
+        .search-result-details .price-container p {
+            font-size: 18px;
+        }

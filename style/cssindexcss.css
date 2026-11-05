@@ -1,0 +1,41 @@
+        .header-right {
+            display: flex;
+            align-items: center;
+        }
+
+        .user-menu {
+            position: relative;
+            display: inline-block;
+            margin-right: 20px;
+            margin-top: -40px;
+            color: white;
+        }
+
+        .user-menu-content {
+            display: none;
+            position: absolute;
+            background-color: #f9f9f9;
+            min-width: 260px;
+            min-height: 40px;
+            box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+            z-index: 1;
+        }
+
+        .user-menu-content a {
+            color: black;
+            padding: 3px 10px;
+            text-decoration: none;
+            display: block;
+        }
+
+        .user-menu-content a:hover {
+            background-color: #f1f1f1;
+        }
+
+        .user-menu:hover .user-menu-content {
+            display: block;
+        }
+
+        .user-menu-text {
+            cursor: pointer;
+        }

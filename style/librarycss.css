@@ -1,0 +1,110 @@
+        header {
+            background-color: #181a21;
+            width: 100%;
+            padding: 20px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+        }
+
+        header img {
+            width: 175px;
+            padding-right: 30px;
+        }
+
+        nav a {
+            color: #ccc;
+            text-decoration: none;
+            font-weight: 600;
+            margin-left: 10px;
+            padding-right: 30px;
+        }
+
+        nav a:hover {
+            color: #1a56e2;
+        }
+
+        .header-right {
+            display: flex;
+            align-items: center;
+        }
+
+        .user-menu {
+            position: relative;
+            display: inline-block;
+            margin-right: 20px;
+            margin-top: -40px;
+            color: white;
+        }
+
+        .user-menu-content {
+            display: none;
+            position: absolute;
+            background-color: #f9f9f9;
+            min-width: 260px;
+            min-height: 40px;
+            box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+            z-index: 1;
+        }
+
+        .user-menu-content a {
+            color: black;
+            padding: 3px 10px;
+            text-decoration: none;
+            display: block;
+        }
+
+        .user-menu-content a:hover {
+            background-color: #f1f1f1;
+        }
+
+        .user-menu:hover .user-menu-content {
+            display: block;
+        }
+
+        .user-menu-text {
+            cursor: pointer;
+        }
+
+        .library-container {
+            max-width: 800px;
+            margin: 20px auto;
+            overflow: hidden;
+            padding: 20px;
+            margin-bottom: 100px;
+        }
+
+        .game-container {
+            background-color: #232a31;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+            display: flex;
+            margin-bottom: 20px;
+            cursor: pointer;
+            transition: transform 0.2s ease-in-out;
+        }
+
+        .game-details {
+            flex-grow: 1;
+            padding-right: 20px;
+        }
+
+        .game-details h2 {
+            font-size: 16px;
+            margin-top: 25px;
+            margin-left: 20px;
+        }
+
+        .game-details p {
+            font-size: 14px;
+            color: #999;
+        }
+
+        .game-image {
+            margin-top: 10px;
+            margin-bottom: 10px;
+            margin-left: 10px;
+
+            width: 100px;
+            height: auto;
+        }

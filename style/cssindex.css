@@ -1,0 +1,207 @@
+
+    body {
+    display: flex;
+        flex-direction: column;
+        background-color: #1b2838;
+        margin: 0;
+        padding: 0;
+        font-family: "Motiva Sans", sans-serif;
+        }
+
+    header {
+            background-color: #181a21;
+            width: 100%;
+            padding: 20px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+        }
+
+    header img {
+        width: 175px;
+        padding-right: 30px;
+    }
+
+    nav a {
+        color: #ccc;
+        text-decoration: none;
+        font-weight: 600;
+        margin-left: 10px;
+        padding-right: 30px;
+    }
+
+    nav a:hover {
+        color: #1a56e2;
+      }
+
+    /* NAV */
+        .ContentOne {
+            margin-bottom: 150px;
+
+        }
+ 
+        .kong {
+            position: relative;
+        }
+ 
+        .ContentOne .storeNav {
+            position: absolute;
+            top: 24px;
+            left: 150px;
+            height: 35px;
+            width: 940px;
+            margin: 7px 0 7px 0;
+            /* border: 1px solid white; */
+            background-image: linear-gradient(to right, #3B6490, #2B4B84, #0F216E);
+            z-index: 5;
+        }
+ 
+        .ContentOne .storeNav ul li {
+            float: left;
+            list-style: none;
+            height: 35px;
+            margin-top: -15px;
+            font-family: Arial, Helvetica, sans-serif;
+            font-weight: bold;
+            font-size: 13px;
+            text-shadow: 0px 2px 3px rgb(0 0 0 / 30%);
+            color: #d9d9d9;
+            /* padding-top: 10px; */
+        }
+ 
+        .ContentOne .storeNav ul li img {
+            float: left;
+            width: 26px;
+            height: 26px;
+            margin-right: -10px;
+        }
+ 
+        .ContentOne .storeNav ul li:not(.emptyNav, .search):hover {
+            cursor: pointer;
+            background-image: linear-gradient(to right, #3180BF, rgba(55, 106, 156, 0.5));
+        }
+ 
+        .ContentOne .storeNav ul .emptyNav {
+            width: 660px;
+        }
+ 
+        .ContentOne .storeNav ul .search {
+            width: 205px;
+            height: 35px;
+            margin-left: 20px;
+            padding: 0;
+        }
+ 
+        .ContentOne .storeNav ul li .searchFor {
+            background-color: #316282;
+            border-radius: 3px;
+            border: 1px solid rgba(0, 0, 0, 0.3);
+            box-shadow: 1px 1px 0px rgb(255 255 255 / 20%);
+            height: 25px;
+            box-sizing: border-box;
+            margin-right: 0;
+            margin-top: 5px;
+            position: relative;
+        }
+ 
+        .ContentOne .storeNav ul li .searchFor:hover {
+            border: 1px solid blue;
+        }
+ 
+        .ContentOne .storeNav ul li input {
+            height: 27px;
+            width: calc(100% - 25px - 8px);
+            color: #081116;
+            font-size: 14px;
+            text-shadow: 1px 1px 0px rgb(255 255 255 / 10%);
+            font-family: "Motiva Sans", Sans-serif;
+            font-weight: 300;
+            outline: none;
+            background-color: transparent;
+            border: none;
+            position: absolute;
+            left: 0;
+            font-style: italic;
+            margin-left: 8px
+        }
+ 
+        .ContentOne .storeNav ul li .searchFor img {
+            width: 23px;
+            height: 23px;
+            position: absolute;
+            top: 0px;
+            right: 11px;
+        }
+        
+    .game-container {
+        margin-bottom: 50px;
+        margin-left: 130px;
+        max-width: 1000px;
+        display: grid;
+        grid-template-columns: repeat(4, minmax(0, 1fr));
+        gap: 15px;
+        justify-content: space-around;
+    }
+
+    .game-card {
+        background: linear-gradient(90deg, #336596 0%, #151f7e 100%);
+        overflow: hidden;
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 10);
+        transition: transform 0.3s ease-in-out;
+    }
+
+    .game-card:hover {
+        transform: scale(1.05);
+    }
+
+    .game-card img {
+        width: 100%;
+        height: auto;
+        border-bottom: 1px solid #ddd; /* Garis pemisah jika diperlukan */
+    }
+
+    .game-card p {
+        margin-left: 10px;
+        text-align: left;
+        margin-left: 10px;
+        margin-top: 1px;
+        margin-bottom: 1px;
+        font-weight: bold;
+        color: #ffffff;
+        background: #363745e3 ;
+        width: 60px;
+    }
+
+    main p{
+        margin-left: 129px;
+        color: floralwhite;
+        font-weight: bold;
+    }
+
+footer {
+    background-color: #2b2b2b;
+    color: white;
+    padding: 20px;
+}
+
+.footer-content p {
+    font-size: 12px;
+}
+
+nav ul, .footer-links ul {
+    list-style-type: none;
+}
+
+nav ul li, .footer-links ul li {
+    display: inline;
+}
+
+nav ul li a, .footer-links ul li a {
+    color: white;
+}
+
+.logo img {
+    width: 100px; /* Atur lebar logo sesuai kebutuhan */
+    height: auto;
+}
